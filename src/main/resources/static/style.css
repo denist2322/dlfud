@@ -1,0 +1,28 @@
+
+.link-icon { position: relative; display: inline-block; width: auto;    font-size: 14px; font-weight: 500; color: #333; margin-right: 10px; padding-top: 50px; }
+.link-icon.twitter { background-image: url(./images/icon-twitter.png); background-repeat: no-repeat; border:none;}
+.link-icon.kakao { background-image: url(./images/icon-kakao.png); background-repeat: no-repeat;  border:none;}
+.white {color:#fff}
+.border{
+width:42.5px;
+}
+
+@font-face {
+    font-family: 'CookieRun-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/CookieRun-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html > body,
+html > body input,
+html > body select,
+html > body textarea,
+html > body pre,
+html > body button {
+  font-family: "CookieRun-Regular";
+  color: #333;
+  text-underline-position: under;
+  line-height: 1.3;
+}
+
